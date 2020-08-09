@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+<h1>Welcome to index page</h1>
+<h1>{{text|title}}</h1>
+<h1>{{number|add:"50"}}</h1>
+<h1>{{mydate.ctime}}</h1>
+<h1>{{mytime}}</h1>
+
+<h1>custom filter-cut</h1>
+<h2>{{text|cut:"world"}}</h2>
+{% endblock %}

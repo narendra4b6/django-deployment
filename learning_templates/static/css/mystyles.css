@@ -1,0 +1,34 @@
+h2{
+  color:orange;
+}
+
+.menubar{
+  background-color:green;
+
+}
+.menubar ul{
+  list-style:none;
+  padding:5px;
+}
+.menubar ul li{
+  display:inline-block;
+  padding:3px;
+  background-color:rgb(0,100,0);
+  margin-top:2px;
+  margin-right:5px;
+}
+
+.menubar ul li:hover{
+background-color:#fff;
+
+}
+
+.menubar ul li a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.menubar ul li a:hover{
+  color:pink;
+  padding:4px;
+}
